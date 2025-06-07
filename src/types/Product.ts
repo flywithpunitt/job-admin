@@ -1,0 +1,31 @@
+export type createProduct = {
+  productTitle: string;
+  productd: string;
+  metaTitle: string;
+  metaDescription: string;
+  locations: string,
+  line1: string;
+  state: string;
+  city: string;
+  zipcode: string;
+  tags: string[];
+  productImage: any;
+  Brand: string;
+  minOrderQuantity: number;
+  productCategory: number;
+  sku: string;
+  RegularPrice: number;
+  SalePrice: number;
+  stokes: number;
+  onSale: boolean;
+  length: number;
+  lengthClass: string;
+  weight: number;
+  width : number;
+  weightClass: string;
+  height: number;
+  heightClass: string;
+  WidthClass: string;
+  widthClass: string;
+  AttributeID: number;
+};
